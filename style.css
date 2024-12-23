@@ -4,6 +4,8 @@
 /* sheard style */
 *{
     font-family: "Work Sans", serif;
+    margin: 0 auto;
+    padding: 0;
 }
 
 .btn-primary{
@@ -237,9 +239,7 @@ footer{
     padding: 10px;
 }
 
-.color{
-    background-color: #131313;
-}
+
 
 
 
@@ -248,9 +248,20 @@ footer{
 /* responsive style */
 
 @media screen and (max-width:576px){
+    *{
+        font-size: 16px;
+        padding: 0 5px;
+    }
     header{
      padding: 20px;
 
+    }
+    .banner-title{
+        font-size: 1.8rem;
+        margin: 10px 0;
+    }
+    .title-name{
+        font-size: 1.5rem;
     }
     .enjoy-img img{
         width: 100%;
@@ -266,6 +277,16 @@ footer{
         margin-top: 20px;
     
     }
+    nav>ul{
+flex-direction: column;
+text-align: center;
+
+    }
+    nav>ul li{
+        margin-right: 0;
+        margin-bottom: 10px;
+        text-align: center;
+    }
    
     nav,
     .features-section,
@@ -276,7 +297,7 @@ footer{
     }
     nav > Ul li{
     
-        margin-right: 40px;
+        margin-right: 20px;
      
     }
     .features-content{
